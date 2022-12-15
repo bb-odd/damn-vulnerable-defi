@@ -1,10 +1,7 @@
 {
   "version": "2.2.0",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/tinchoabbate/damn-vulnerable-defi.git"
-  },
+  "repository": "https://github.com/tinchoabbate/damn-vulnerable-defi.git",
   "scripts": {
     "unstoppable": "yarn hardhat test test/unstoppable/unstoppable.challenge.js",
     "truster": "yarn hardhat test test/truster/truster.challenge.js",
@@ -34,5 +31,8 @@
     "ethers": "5.4.7",
     "hardhat": "2.6.4",
     "hardhat-dependency-compiler": "1.1.1"
-  }
+  },
+  "name": "damn-vulnerable-defi",
+  "main": "index.js",
+  "author": "deniz <denizz9@live.co.uk>"
 }
